@@ -130,3 +130,8 @@
 /home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/Spectre.Console.dll
+/home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/Spectre.Console.Cli.dll
+/home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/de/Spectre.Console.Cli.resources.dll
+/home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/fr/Spectre.Console.Cli.resources.dll
+/home/brenoacioli/Documents/phone-book/bin/Debug/net8.0/sv/Spectre.Console.Cli.resources.dll

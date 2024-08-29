@@ -30,15 +30,15 @@ public class ContactController
         return contact;
     }
 
-    public static List<Contact> GetContactsByName(string name)
-    {
-        using var db = new ContactContext();
+    // public static List<Contact> GetContactsByName(string name)
+    // {
+    //     using var db = new ContactContext();
 
-        var contacts = db.Contacts.Where(x =>
-        x.Name.ToLower().Contains(name.ToLower()));
+    //     var contacts = db.Contacts.Where(x =>
+    //     x.Name.ToLower().Contains(name.ToLower()));
 
-        return contacts.ToList();
-    }
+    //     return contacts.ToList();
+    // }
 
     public static List<Contact> GetAllContacts()
     {
