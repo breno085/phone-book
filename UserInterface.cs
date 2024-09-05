@@ -51,12 +51,46 @@ namespace phone_book
 
         internal static void ShowAllContacts(List<Contact> contacts)
         {
-            throw new NotImplementedException();
+            var table = new Table();
+            table.AddColumn("Id");
+            table.AddColumn("Name");
+            table.AddColumn("Email");
+            table.AddColumn("Phone Number");
+
+            foreach (var contact in contacts)
+            {
+                table.AddRow(
+                    contact.Id.ToString(),
+                    contact.Name,
+                    contact.Email,
+                    contact.PhoneNumber
+                );
+            }
+
+            AnsiConsole.Write(table);
+
+            Console.WriteLine("Enter any key to continue");
+            Console.ReadLine();
+            Console.Clear();
         }
 
         internal static void ShowContact(Contact contact)
         {
-            throw new NotImplementedException();
+            var panel = new Panel($@"
+            Id: {contact.Id}
+            Name: {contact.Name}
+            Email: {contact.Email}
+            Phone Number: {contact.PhoneNumber}")
+            {
+                Header = new PanelHeader("Contact Info"),
+                Padding = new Padding(2, 2, 2, 2)
+            };
+
+            AnsiConsole.Write(panel);
+
+            Console.WriteLine("Enter any key to continue");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }
