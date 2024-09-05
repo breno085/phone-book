@@ -29,7 +29,7 @@ public class ContactService
     {
         Contact contact = GetContactOptionInput();
 
-        // UserInterface.ShowContact(contact);
+        UserInterface.ShowContact(contact);
     }
 
 
@@ -37,7 +37,7 @@ public class ContactService
     {
         var contacts = ContactController.GetAllContacts();
 
-        // UserInterface.ShowAllContacts(contacts);
+        UserInterface.ShowAllContacts(contacts);
     }
 
     public static void UpdateContact()
